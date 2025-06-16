@@ -1,14 +1,49 @@
-Step to run application:
-Step 1:	Create the copy of the project.
-Step 2: Open command prompt and change your current path 
-to folder where you can find 'app.py' file.
-Step 3: Create environment by command given below-
-conda create -name <environment name>
-Step 4: Activate environment by command as follows-
-conda activate <environment name>
-Step 5: Use command below to install required dependencies-
-python -m pip install -r requirements.txt
-Step 6: Run application by command;
-python app.py
-You will get url copy it and paste in browser.
-Step 7: You have sample_data folder where you can get images to test.
+# 🛂 Pan Card Tempering Detector App
+
+A machine learning-powered **Streamlit web application** that detects whether a PAN card has been tampered with or not using image classification. This project is ideal for document verification use-cases in KYC systems.
+
+---
+
+## 📌 Features
+
+- Upload a PAN card image (original or tampered)
+- Predicts whether the document is genuine or tampered
+- Built using **OpenCV**, **Keras**, **TensorFlow**, and **Streamlit**
+- Lightweight, fast, and easy to use via browser
+- Deployed on **Heroku** for quick public access
+
+---
+
+## 📁 Folder Structure
+
+PanCardTemperingApp/
+│
+├── app.py             # 🚀 Main Streamlit application script  
+├── model.h5           # 🧠 Pre-trained CNN model (Keras) used for classification  
+├── requirements.txt   # 📦 List of Python packages required to run the app  
+├── utils.py           # 🛠️ Utility functions for image preprocessing and prediction  
+└── README.md          # 📘 Detailed documentation of the project  
+
+
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 🐍
+- Streamlit 📊
+- OpenCV 📸
+- Keras + TensorFlow 🧠
+- NumPy ⚙️
+- Heroku ☁️ (for deployment)
+
+---
+
+## 🚀 Installation and Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/JAYTHAKAR2004/DATASCIENCE-PROJECTS.git
+cd DATASCIENCE-PROJECTS/PanCardTemperingApp
+
